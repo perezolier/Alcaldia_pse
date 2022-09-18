@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>usuarioController</servlet-name>
+        <servlet-class>Controlador.usuarioController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ValidarAcceso</servlet-name>
+        <servlet-class>Controlador.ValidarAcceso</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ValidarRegistroUsuario</servlet-name>
+        <servlet-class>Controlador.ValidarRegistroUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdmInsertaUsuario</servlet-name>
+        <servlet-class>Controlador.AdmInsertaUsuario</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>usuarioController</servlet-name>
+        <url-pattern>/usuarioController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ValidarAcceso</servlet-name>
+        <url-pattern>/ValidarAcceso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ValidarRegistroUsuario</servlet-name>
+        <url-pattern>/ValidarRegistroUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdmInsertaUsuario</servlet-name>
+        <url-pattern>/AdmInsertaUsuario</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

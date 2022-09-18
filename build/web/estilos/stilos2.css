@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    padding: 5px 0px;
+}
+body{
+    text-align: center;
+}
+#cuerpo{
+    max-width: 960px;    
+    margin: 15px auto;  
+    
+}
+#head1{
+    background-color: rgb(20, 156, 190);
+    border: 1px solid cadetblue;
+    padding: 10px;
+    color: white;
+    position: relative;
+    height: 60px;
+}
+#divTit{
+    line-height: 60px;
+}
+#divLogo{
+    position: absolute;
+    top: 5px;
+    left:5px;
+}
+#spanTit{
+    font-size: 30px;
+    line-height: 30px;
+}
+#contenido{
+    width: 960px;
+    text-align: center;
+}
+#sec1{
+    float: left;
+    max-width: 960px;  
+    min-height: 400px;  
+    margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+#asi1{
+    /*float: left;*/
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(190, 186, 186);
+    border-radius: 5px;
+
+}
+#fot1{
+    clear: left;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(20, 156, 190);
+    color: white; 
+}
+article{
+    background-color: rgb(207, 242, 243);
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: rgb(150, 150, 150) 5px 5px;
+}
+
+article footer{
+    text-align: right;
+}
+
+
+h2{
+    background-color: rgb(20, 156, 190);
+    color: white;
+}
+.divLabel{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: 5px;
+}
+label{
+    font-weight: bold;
+    
+}
+#formAcceso{
+    width: 180px;    
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#formNuevoPac{
+    width: 400px;    
+    margin-left: auto;
+	margin-right: auto;
+}
+
+#formConsPac{
+    width: 600px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formNuevaCita{
+    width: 600px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnIng{
+    width: 50%;
+    background-color: rgb(20, 156, 190);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    box-shadow: #000000 5px 5px 10px;
+    cursor: pointer;
+}
+
+.btnReg{
+    width: 150px;
+    background-color: rgb(20, 156, 190);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    box-shadow: #000000 5px 5px 10px;
+    cursor: pointer;
+} 
+
+button:hover{
+    background-color: rgb(12, 109, 136);
+    color: white;
+}
+
+#tablaCons{
+    max-width: 600px;
+    border-collapse: collapse;    
+}
+
+th,td{
+    border: 1px solid black;
+}
+
+@media screen and (min-width:300px) and (max-width:580px){
+    h1{
+        font-size: 18px;
+    }
+    #formAcceso{
+        display: none;
+    }
+}
+@media screen and (min-width:581px) and (max-width:1000px){
+    h1{
+        font-size: 18px;
+    }
+    #formAcceso{
+        display: none;
+    }
+}
+
